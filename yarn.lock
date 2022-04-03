@@ -7148,9 +7148,9 @@
     eslint-visitor-keys "^3.0.0"
 
 "@uiw/react-codemirror@^4.5.1":
-  version "4.5.1"
-  resolved "https://registry.npmjs.org/@uiw/react-codemirror/-/react-codemirror-4.5.1.tgz#f2af4e761f13b729a3ec7c7c858b34432cdf46a7"
-  integrity sha512-90SNE89uJOQgcZwV0fuZjCgDeH7pjagCqwOcYHvDG5Qedp2nKmb4/2mgDCtLBxTGKxb73ktUOkbdu3L05ck1Yg==
+  version "4.5.3"
+  resolved "https://registry.npmjs.org/@uiw/react-codemirror/-/react-codemirror-4.5.3.tgz#bc5f9dc4327c9ac1dbf94dd0f9e11590dda0629c"
+  integrity sha512-GmeYFINI8ZQ2bhSwUXt8nioVianSTI1BoPvelbIzIiZAf7UN63egrHqyEZIqCMZdi+q62CpDPgwTS1LYSsHlfw==
   dependencies:
     "@babel/runtime" "^7.17.2"
     "@codemirror/basic-setup" "^0.19.1"
