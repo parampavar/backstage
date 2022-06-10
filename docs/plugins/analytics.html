@@ -104,12 +104,13 @@ learn how to contribute the integration yourself!</p>
 installed, may be captured.</p>
 <table>
 <thead>
-<tr><th>Action</th><th>Provided By</th><th>Subject</th></tr>
+<tr><th>Action</th><th>Subject</th><th>Other Notes</th></tr>
 </thead>
 <tbody>
-<tr><td><code>navigate</code></td><td>Backstage Core</td><td>The URL of the page that was navigated to</td></tr>
-<tr><td><code>click</code></td><td>Backstage Core</td><td>The text of the link that was clicked on</td></tr>
-<tr><td><code>search</code></td><td>Backstage Core</td><td>The search term entered in any search bar component</td></tr>
+<tr><td><code>navigate</code></td><td>The URL of the page that was navigated to</td><td></td></tr>
+<tr><td><code>click</code></td><td>The text of the link that was clicked on</td><td>The <code>to</code> attribute represents the URL clicked to</td></tr>
+<tr><td><code>search</code></td><td>The search term entered in any search bar component</td><td>The <code>searchTypes</code> attribute holds <code>types</code> constraining the search</td></tr>
+<tr><td><code>discover</code></td><td>The title of the search result that was clicked on</td><td>The <code>value</code> is the result rank. A <code>to</code> attribute is also provided</td></tr>
 </tbody>
 </table>
 <p>If there is an event you'd like to see captured, please <a href="https://github.com/backstage/backstage/issues/new?assignees=&amp;labels=enhancement&amp;template=feature_template.md&amp;title=[Analytics%20Event]:%20THE+EVENT+TO+CAPTURE">open an
