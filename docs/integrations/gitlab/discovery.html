@@ -75,7 +75,7 @@ to the catalog configuration:</p>
       <span class="hljs-attr">yourProviderId:</span>
         <span class="hljs-attr">host:</span> <span class="hljs-string">gitlab-host</span> <span class="hljs-comment"># Identifies one of the hosts set up in the integrations</span>
         <span class="hljs-attr">branch:</span> <span class="hljs-string">main</span> <span class="hljs-comment"># Optional. Uses `master` as default</span>
-        <span class="hljs-attr">group:</span> <span class="hljs-string">example-group</span> <span class="hljs-comment"># Group and subgroup (if needed) to look for repositories</span>
+        <span class="hljs-attr">group:</span> <span class="hljs-string">example-group</span> <span class="hljs-comment"># Optional. Group and subgroup (if needed) to look for repositories. If not present the whole project will be scanned</span>
         <span class="hljs-attr">entityFilename:</span> <span class="hljs-string">catalog-info.yaml</span> <span class="hljs-comment"># Optional. Defaults to `catalog-info.yaml`</span>
 </code></pre>
 <p>As this provider is not one of the default providers, you will first need to install
